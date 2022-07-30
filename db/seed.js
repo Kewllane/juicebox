@@ -85,6 +85,7 @@ const {
       await dropTables();
       await createTables();
       await createInitialUsers();
+      await createInitialPosts();
     } catch (error) {
       throw error;
     }
